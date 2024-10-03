@@ -34,4 +34,6 @@ A simple user authentication system built with React, Node.js, Express, and Mong
    npm install
    cd Server
    npm install
+   go to http://localhost:3000/register and register yourself it will redirected to protected route and has static table
+   and you can also login with same email id and password you filled during the registration 
    
