@@ -1,0 +1,142 @@
+.login-page {
+    background: linear-gradient(135deg, #007885, #004d73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+    background-color: #1D2C4F;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-container:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.login-header {
+    margin-bottom: 30px;
+}
+
+.sign-in {
+    background-color: #00F5E1;
+    color: #1D2C4F;
+    padding: 15px 40px;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.sign-in:hover {
+    background-color: #00d2c8;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.image-container img {
+    width: 80px; /* Adjust the size of the logo */
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #37474f;
+    padding: 10px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    color: #90a4ae;
+    font-size: 18px;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 15px;
+    padding-left: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #37474f;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.form-group input:focus {
+    background-color: #263238;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input[type='checkbox'] {
+    margin-right: 5px;
+    accent-color: #00F5E1;
+}
+
+.remember-me label {
+    color: #00F5E1;
+}
+
+.forgot-password {
+    color: #00F5E1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.forgot-password:hover {
+    color: #00d2c8;
+}
+
+.login-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #00F5E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: #00d2c8;
+}
