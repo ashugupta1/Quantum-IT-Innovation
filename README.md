@@ -29,5 +29,9 @@ A simple user authentication system built with React, Node.js, Express, and Mong
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/user-authentication-system.git
-   cd user-authentication-system
+   git clone https://github.com/ashugupta1/Quantum-IT-Innovation.git
+   cd Client
+   npm install
+   cd Server
+   npm install
+   
